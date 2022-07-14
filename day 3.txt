@@ -1,0 +1,90 @@
+qs1.for the given JSON itrate over all for loop(for,for in)
+FOR LOOP
+var arr=[
+  {
+   
+    "name": "surya",
+    "age": "30",
+
+  },
+  {
+
+    "name": "akeel",
+    "age": "25",
+  
+  },
+  {
+    
+    "name": "siva",
+    "age": "26",
+    
+  },
+  {
+   
+    "name": "anu",
+    "age": "25",
+   
+  }];
+for(var i=0;i<arr.length;i++){
+console.log(arr[i]);
+}});
+
+
+FOR IN LOOP
+
+
+var arr=[
+  {
+   
+    "name": "surya",
+    "age": "30",
+
+  },
+  {
+
+    "name": "akeel",
+    "age": "25",
+  
+  },
+  {
+    
+    "name": "siva",
+    "age": "26",
+    
+  },
+  {
+   
+    "name": "anu",
+    "age": "25",
+   
+  }];
+for(var i in arr){
+console.log(arr[i])
+}});
+
+
+question number 2
+create your own resume on JSON
+var arr=[
+  {"name" :"srisowmithrapawan",
+  "age"   : "23",
+  "DOB"   : "12.06.1998",
+ "qualification" : "B.E mechanicl engineering",
+  "mother tongue" : "tamil",
+  "skills":"full stack web page developement",
+  "education details":"",
+  "12th" :"jayandra school",
+  "college":"st.josephs college of engineering",},
+{"declaretion" : "here by i declare above informations are correct upto my knowledge",
+}]
+for(i=0;i<arr.length;i++){
+console.log(arr[i]);
+}});
+
+QUESTION NUMBER 3
+READ DIFFERENCE BETWEEN WINDOWS,SCREEN AND DOCUMENT IN JAVASCRIPT
+1.Window is the main JavaScript object root, aka the global object in a browser, and it can also be treated as the root of the document object model. You can access it as window.
+
+2.window.screen or just screen is a small information object about physical screen dimensions.
+
+3.window.document or just document is the main object of the potentially visible (or better yet: rendered) document object model/DOM.
